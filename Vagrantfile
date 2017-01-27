@@ -6,7 +6,6 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   
-  puts "proxyconf..."
   if Vagrant.has_plugin?("vagrant-proxyconf")
     puts "find proxyconf plugin !"
     if ENV["http_proxy"]
