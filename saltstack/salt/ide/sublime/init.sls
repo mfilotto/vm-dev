@@ -13,6 +13,6 @@ sublime_symlinked:
 sublime_launcher_installed:
   file.managed:
     - name: "/usr/share/applications/sublime.desktop"
-    - source: salt://ide/sublime.desktop
+    - source: salt://ide/sublime/sublime.desktop
     - require:
       - file: sublime_symlinked
