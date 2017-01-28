@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Eclipse
+GenericName=Integrated Development Environment
+Encoding=UTF-8
+
+Exec=eclipse
+Terminal=false
+Icon=/opt/eclipse/icon.xpm
+Type=Application
+NoDisplay=false
+Categories=Development;IDE;Java;

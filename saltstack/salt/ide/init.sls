@@ -1,0 +1,3 @@
+include:
+  - .sublime
+  - .eclipse
