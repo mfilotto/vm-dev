@@ -1,4 +1,5 @@
 base:
   '*':
     - common
-    - desktop_environment.xfce
+    - desktop_environment
+    - ide
