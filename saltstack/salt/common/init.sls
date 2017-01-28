@@ -1,2 +1,3 @@
 include:
-  - common.packages
+  - .packages
+  - .locale
