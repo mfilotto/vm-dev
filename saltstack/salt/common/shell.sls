@@ -12,3 +12,8 @@ fish_shell_installed:
     - require:
       - pkgrepo: fish_shell_repo_installed
 
+fish_shell_set:
+  cmd.run:
+    - name: chsh -s `which fish` vagrant
+    - require:
+      - pkg: fish_shell_installed
