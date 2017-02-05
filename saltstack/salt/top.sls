@@ -1,5 +1,5 @@
 base:
   '*':
     - common
-    - desktop_environment
+    - de
     - ide
