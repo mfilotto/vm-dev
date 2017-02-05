@@ -1,3 +1,4 @@
 include:
-  - .packages
   - .locale
+  - .packages
+  - .shell
